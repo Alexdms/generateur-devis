@@ -1,0 +1,32 @@
+/**
+ * Site : Générateur de devis
+ * Auteur : Alexandre Demeurs
+ * Description : Style CSS
+ * Version : 1.0.0
+*/
+
+html { position: relative; min-height: 100%; }
+body { margin-bottom: 80px !important; }
+
+.icone { margin-right: 10px; }
+.bouton { margin-left: 10px; }
+.filtre { text-align: right; padding-top: 7px; }
+
+.contenu { padding-bottom: 20px; }
+.nav-pills { margin-bottom: 15px !important; }
+.nav-pills > div { float: left; margin-bottom: 2px; }
+.nav-pills > div + div { margin-left: 2px; }
+
+th.description { min-width: 60%; }
+td { vertical-align: middle !important; }
+.btn.disabled, .btn[disabled], fieldset[disabled] .btn { pointer-events: none; }
+
+footer { position: absolute; bottom: 0; width: 100%; background-color: #18BC9C; }
+footer .container { display: flex; min-height: 60px; }
+footer p { margin: 8px auto; text-align: center; }
+footer a { color: #fff; }
+footer a:hover, a:focus { color: #2c3e50 !important; }
+
+@media screen and (max-width: 768px) {
+	h1 { font-size: 30px !important; }
+}
